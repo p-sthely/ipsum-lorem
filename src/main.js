@@ -11,6 +11,6 @@ window.onload = () => {
     let splitLocationHref = window.location.href.split('/')
     pageName = splitLocationHref[splitLocationHref.length - 1]
 
-    document.querySelector('.navbar-nav a[href="' + pageName + '"]').classList.add("border-bottom", "border-dark")
+    document.querySelector('.navbar-nav a[href="' + pageName + '"]').classList.add("active")
 }
 
