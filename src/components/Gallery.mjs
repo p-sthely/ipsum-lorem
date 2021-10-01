@@ -4,7 +4,7 @@ const data = {
             border: none;
         `,
         image: `
-            max-height: 575px;
+            height: 575px;
             object-fit: cover;
         `,
         cardBody: `
