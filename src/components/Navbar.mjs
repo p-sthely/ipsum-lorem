@@ -15,6 +15,12 @@ const data = {
         `,
         navLink: `
             color: #000;
+        `,
+        navLinkIcon: `
+            color: #000;
+            font-size: 1.05em;
+            margin-left: .5em;
+            margin-right: .5em;
         `
     },
     title: 'Ipsum Lorem'
@@ -40,6 +46,10 @@ const template = `
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html" style="${ data.style.navLink }">Contact</a>
                         </li>
+                    </ul>
+                    <ul class="navbar-nav d-flex flex-row align-items-center">
+                        <li class="nav-item"><a href="#" style="${ data.style.navLinkIcon }"><i class="bi bi-instagram"></i></i></a></li>
+                        <li class="nav-item"><a href="#" style="${ data.style.navLinkIcon }"><i class="bi bi-twitter"></i></a></li>
                     </ul>
                 </div>
             </div>
