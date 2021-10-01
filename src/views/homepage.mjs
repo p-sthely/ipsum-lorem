@@ -13,4 +13,5 @@ const template = `
         ${ Navbar }
     </div>
 `
+
 export default template
