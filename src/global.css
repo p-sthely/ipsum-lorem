@@ -1,3 +1,19 @@
+/* set padding to 0 on small screens */
+@media (max-width: 768px) {
+    #siteWrapper {
+        padding:  0;
+    }
+}
+/* set padding on x to 2em on large screens */
+@media (min-width: 768px) {
+    #siteWrapper {
+        padding-left:  2em;
+        padding-right:  2em;
+    }
+}
+
+/* redefine the bootstrap .active class */
 .active {
     border-bottom: 1px solid #000;
 }
+

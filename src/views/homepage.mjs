@@ -4,13 +4,14 @@ import Gallery from '../components/Gallery.mjs'
 const data = {
     style: {
         container: `
-            padding: 2em;
+            padding-top: 2em;
+            padding-bottom: 2em;
         `
     }
 }
 
 const template = `
-    <div class="container-fluid" style="${ data.style.container }">
+    <div id="siteWrapper" class="container-fluid" style="${ data.style.container }">
         ${ Navbar }
         <div class="container-fluid my-5">
             ${ Gallery }
